@@ -5,15 +5,20 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
-  <title>Finding Pokémon</title>
+  <title>Searching Pokémon</title>
 </head>
 
 <body>
   <main>
     <!-- Topic -->
-    <h1>Finding Pokémon</h1>
+    <center>
+    <input type="image" src="https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png" width="200px">
+    </center>
+    <div class="detail">Welcome 👋, Searching for your Pokémon.</div>
     <!-- Pokemon Search Box -->
     <div class="searchBox">
       <input id="pokemonName" type="Pokemon name" placeholder="Enter the Pokémon name." />
@@ -25,6 +30,9 @@
     </div>
     <!-- เรียกมาเพื่อให้สามารถเเสดง type ได้ -->
     <p id="type"></p>
+
+    <!-- Pokemon Stats -->
+    <div class="pokemonStats" id="stats"></div>
   </main>
 
   <script src="script.js"></script>
